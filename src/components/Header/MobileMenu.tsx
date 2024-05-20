@@ -14,7 +14,7 @@ const MobileMenu = () => {
         <SheetTrigger>
           <AlignJustify />
         </SheetTrigger>
-        <SheetContent className="bg-black border-white border-opacity-15 flex flex-col border bg-opacity-10 shadow-md backdrop-blur-lg text-white">
+        <SheetContent className="bg-black border-white border-opacity-15 flex flex-col border shadow-md backdrop-blur-lg text-white">
           <div className="flex flex-col space-y-4 mt-16 ">
             <Link href="#features">Features</Link>
             <Link href="#">Pricing</Link>
