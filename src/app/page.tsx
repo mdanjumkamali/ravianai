@@ -1,3 +1,4 @@
+import Clients from "@/components/Clients/Clients";
 import Features from "@/components/Features/Features";
 import Navbar from "@/components/Header/Navbar";
 import Hero from "@/components/Hero/Hero";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
+      <Clients />
     </main>
   );
 }
