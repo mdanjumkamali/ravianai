@@ -15,12 +15,10 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-6">
-        <Link href="#" className="text-white">
-          About
-        </Link>
-        <Link href="#">Vision</Link>
-        <Link href="#">Offering</Link>
+        <Link href="#features">Features</Link>
+        <Link href="#">Pricing</Link>
         <Link href="#">Contact</Link>
+        <Link href="#">FAQs</Link>
       </div>
       <div className="hidden md:block">
         <Button

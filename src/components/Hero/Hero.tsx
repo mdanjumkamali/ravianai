@@ -9,7 +9,7 @@ const Hero = () => {
   const router = useRouter();
 
   return (
-    <div className="text-white pb-20 pt-36">
+    <div className="text-white  min-h-screen pt-36">
       <Spotlight
         className="-top-10 left-0 md:left-60 md:-top-20 h-screen"
         fill="white"
