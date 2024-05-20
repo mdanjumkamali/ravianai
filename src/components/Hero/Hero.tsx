@@ -1,12 +1,13 @@
 "use client";
-import React from "react";
-import { Spotlight } from "../ui/Spotlight";
-import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import { Navigation } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { Spotlight } from "../ui/Spotlight";
+import { TextGenerateEffect } from "../ui/TextGenerateEffect";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
 
 const Hero = () => {
   const router = useRouter();
+
   return (
     <div className="text-white pb-20 pt-36">
       <Spotlight
@@ -17,9 +18,11 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
         <div className="mx-6 md:w-3/4 flex items-center justify-center flex-col md:mt-48">
-          <p className="text-4xl md:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 text-center">
-            Turn Data into Decisions
-          </p>
+          <TextGenerateEffect
+            words="Turn Data into Decisions."
+            className="text-4xl md:text-6xl font-bold relative z-20 text-center"
+          />
+
           <p className="text-sm md:text-xl text-neutral-300 text-center mt-2 mb-6 md:mb-10">
             Insights, analytics, and solutions with Gen AI.
           </p>

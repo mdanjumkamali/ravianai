@@ -3,9 +3,8 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { AlignJustify, Navigation } from "lucide-react";
 import Link from "next/link";
-import { Button } from "../ui/button";
-import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import { useRouter } from "next/navigation";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
 
 const MobileMenu = () => {
   const router = useRouter();

@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/navigation";
 import { Button } from "../ui/button";
 import MobileMenu from "./MobileMenu";
-import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const router = useRouter();
