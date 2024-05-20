@@ -1,9 +1,14 @@
+"use client";
+
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { AlignJustify } from "lucide-react";
+import { AlignJustify, Navigation } from "lucide-react";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import { useRouter } from "next/navigation";
 
 const MobileMenu = () => {
+  const router = useRouter();
   return (
     <div>
       <Sheet>
@@ -17,9 +22,15 @@ const MobileMenu = () => {
             <Link href="#">Offering</Link>
             <Link href="#">Contact</Link>
           </div>
-          <Button className="bg-transparent backdrop-blur-md rounded-md border border-white border-opacity-20 shadow-md text-white py-2 px-4 transition duration-300 ease-in-out  hover:shadow-lg">
-            TRY RAVIAN
-          </Button>
+          <HoverBorderGradient
+            containerClassName="rounded-md"
+            as="button"
+            className="bg-transparent text-white flex items-center px-6 gap-2"
+            onClick={() => router.push("http://20.106.224.149:8501/")}
+          >
+            <span>TRY RAVIAN</span>
+            <Navigation width={20} />
+          </HoverBorderGradient>
         </SheetContent>
       </Sheet>
     </div>
