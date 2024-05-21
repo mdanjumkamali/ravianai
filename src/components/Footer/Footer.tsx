@@ -1,5 +1,4 @@
 import { socialMedia } from "@/Data";
-import React from "react";
 
 const Footer = () => {
   return (

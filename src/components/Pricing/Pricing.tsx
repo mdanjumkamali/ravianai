@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
-import PricingCard from "./PricingCard";
 import { pricingPlans } from "@/Data";
+import { useState } from "react";
+import PricingCard from "./PricingCard";
 
 const Pricing = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");

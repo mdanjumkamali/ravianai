@@ -1,6 +1,5 @@
-import React from "react";
-import { WobbleCard } from "../ui/WobbleCard";
 import Image from "next/image";
+import { WobbleCard } from "../ui/WobbleCard";
 
 const Features = () => {
   return (

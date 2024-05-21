@@ -1,5 +1,6 @@
 "use client";
 
+import { navLinks } from "@/Data";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "../ui/button";
@@ -15,10 +16,11 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-6">
-        <Link href="#features">Features</Link>
-        <Link href="#pricing">Pricing</Link>
-        <Link href="#contact">Contact</Link>
-        <Link href="#faqs">FAQs</Link>
+        {navLinks.map((link) => (
+          <Link href={link.href} key={link.name}>
+            {link.name}
+          </Link>
+        ))}
       </div>
       <div className="hidden md:block">
         <Button

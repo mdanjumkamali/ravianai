@@ -1,5 +1,5 @@
-import React from "react";
 import { Check } from "lucide-react";
+import React from "react";
 import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 
 type PricingCardProps = {

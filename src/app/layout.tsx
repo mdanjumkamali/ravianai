@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://ravianai.vercel.app"),
   title: {
-    default: "Ravian AI",
+    default: "Ravian AI - Turn Data into Decisions",
     template: "%s | Ravian AI",
   },
   description:

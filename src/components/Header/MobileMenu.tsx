@@ -1,6 +1,7 @@
 "use client";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { navLinks } from "@/Data";
 import { AlignJustify, Navigation } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -16,10 +17,11 @@ const MobileMenu = () => {
         </SheetTrigger>
         <SheetContent className="bg-black border-white border-opacity-15 flex flex-col border shadow-md backdrop-blur-lg text-white">
           <div className="flex flex-col space-y-4 mt-16 ">
-            <Link href="#features">Features</Link>
-            <Link href="#pricing">Pricing</Link>
-            <Link href="#contact">Contact</Link>
-            <Link href="#faqs">FAQs</Link>
+            {navLinks.map((link) => (
+              <Link href={link.href} key={link.name}>
+                {link.name}
+              </Link>
+            ))}
           </div>
           <HoverBorderGradient
             containerClassName="rounded-md"

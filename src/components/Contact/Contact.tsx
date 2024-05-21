@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { BackgroundBeams } from "../ui/BackgroundBeams";
 import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 

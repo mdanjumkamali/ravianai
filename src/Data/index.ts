@@ -1,8 +1,31 @@
+interface NavLink {
+  name: string;
+  href: string;
+}
 interface PricingPlan {
   name: string;
   price: string;
   features: string[];
 }
+
+export const navLinks: NavLink[] = [
+  {
+    name: "Features",
+    href: "#features",
+  },
+  {
+    name: "Pricing",
+    href: "#pricing",
+  },
+  {
+    name: "Contact",
+    href: "#contact",
+  },
+  {
+    name: "FAQs",
+    href: "#faqs",
+  },
+];
 
 export const testimonials = [
   {

@@ -1,9 +1,9 @@
 "use client";
 import { Navigation } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 import { Spotlight } from "../ui/Spotlight";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
-import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 
 const Hero = () => {
   const router = useRouter();
