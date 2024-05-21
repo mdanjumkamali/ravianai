@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className="hidden md:flex items-center gap-6">
         <Link href="#features">Features</Link>
-        <Link href="#">Pricing</Link>
+        <Link href="#pricing">Pricing</Link>
         <Link href="#">Contact</Link>
         <Link href="#">FAQs</Link>
       </div>

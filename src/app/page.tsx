@@ -2,6 +2,7 @@ import Clients from "@/components/Clients/Clients";
 import Features from "@/components/Features/Features";
 import Navbar from "@/components/Header/Navbar";
 import Hero from "@/components/Hero/Hero";
+import Pricing from "@/components/Pricing/Pricing";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Clients />
+      <Pricing />
     </main>
   );
 }

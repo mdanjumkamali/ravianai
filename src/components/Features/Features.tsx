@@ -9,7 +9,7 @@ const Features = () => {
         <h1 className="text-white text-4xl md:text-6xl font-semibold text-center">
           Why Choose <span className="text-blue-500"> Ravian AI?</span>
         </h1>
-        <p className="text-white text-center text-sm mg:text-lg my-4">
+        <p className="text-white text-center text-sm md:text-lg my-4">
           we transform complex data into actionable insights
         </p>
       </div>

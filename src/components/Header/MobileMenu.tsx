@@ -17,7 +17,7 @@ const MobileMenu = () => {
         <SheetContent className="bg-black border-white border-opacity-15 flex flex-col border shadow-md backdrop-blur-lg text-white">
           <div className="flex flex-col space-y-4 mt-16 ">
             <Link href="#features">Features</Link>
-            <Link href="#">Pricing</Link>
+            <Link href="#pricing">Pricing</Link>
             <Link href="#">Contact</Link>
             <Link href="#">FAQs</Link>
           </div>
