@@ -19,7 +19,7 @@ const MobileMenu = () => {
             <Link href="#features">Features</Link>
             <Link href="#pricing">Pricing</Link>
             <Link href="#contact">Contact</Link>
-            <Link href="#">FAQs</Link>
+            <Link href="#faqs">FAQs</Link>
           </div>
           <HoverBorderGradient
             containerClassName="rounded-md"

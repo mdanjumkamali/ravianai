@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients/Clients";
 import Contact from "@/components/Contact/Contact";
+import FAQs from "@/components/FAQs/FAQs";
 import Features from "@/components/Features/Features";
 import Navbar from "@/components/Header/Navbar";
 import Hero from "@/components/Hero/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Clients />
       <Pricing />
       <Contact />
+      <FAQs />
     </main>
   );
 }

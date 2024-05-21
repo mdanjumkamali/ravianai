@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link href="#features">Features</Link>
         <Link href="#pricing">Pricing</Link>
         <Link href="#contact">Contact</Link>
-        <Link href="#">FAQs</Link>
+        <Link href="#faqs">FAQs</Link>
       </div>
       <div className="hidden md:block">
         <Button
