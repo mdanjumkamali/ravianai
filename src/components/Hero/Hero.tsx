@@ -3,7 +3,7 @@ import { Navigation } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { Spotlight } from "../ui/Spotlight";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
-import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 
 const Hero = () => {
   const router = useRouter();

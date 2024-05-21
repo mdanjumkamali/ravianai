@@ -2,7 +2,7 @@
 
 import React from "react";
 import { BackgroundBeams } from "../ui/BackgroundBeams";
-import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import { HoverBorderGradient } from "../ui/HoverBorderGradient";
 
 const Contact = () => {
   return (
