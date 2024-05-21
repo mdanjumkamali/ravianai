@@ -18,7 +18,7 @@ const MobileMenu = () => {
           <div className="flex flex-col space-y-4 mt-16 ">
             <Link href="#features">Features</Link>
             <Link href="#pricing">Pricing</Link>
-            <Link href="#">Contact</Link>
+            <Link href="#contact">Contact</Link>
             <Link href="#">FAQs</Link>
           </div>
           <HoverBorderGradient
