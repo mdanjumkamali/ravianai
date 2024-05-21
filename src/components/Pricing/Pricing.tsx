@@ -40,7 +40,7 @@ const Pricing = () => {
       <h2 className="text-4xl md:text-6xl font-semibold text-center">
         Discover Your <span className="text-blue-500"> Ideal Plan</span>
       </h2>
-      <div className="flex gap-4 my-8 rounded-full  bg-white bg-opacity-5 shadow-md backdrop-blur-lg text-white border border-opacity-10">
+      <div className="flex gap-4 my-8 rounded-full  bg-white bg-opacity-5 shadow-md backdrop-blur-lg text-white border border-white border-opacity-30">
         <button
           className={`px-4 py-2 rounded-full ${
             billingCycle === "monthly" ? "bg-blue-500 " : ""

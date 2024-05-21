@@ -36,7 +36,7 @@ const Hero = () => {
             <Navigation width={20} />
           </HoverBorderGradient>
 
-          <div className="image bg-no-repeat bg-cover border w-full h-[220px] md:h-[450px] z-20 rounded-xl mt-10"></div>
+          <div className="image bg-no-repeat bg-cover border border-white border-opacity-30 shadow-xl w-full h-[220px] md:h-[450px] z-20 rounded-xl mt-10"></div>
         </div>
       </div>
     </div>

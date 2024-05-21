@@ -15,7 +15,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
 
   return (
     <div
-      className={`rounded-md w-[95%] md:w-[350px] px-10  flex flex-col space-y-4 border-opacity-15 bg-white bg-opacity-5 shadow-md backdrop-blur-lg text-white  ${
+      className={`rounded-md w-[95%] md:w-[350px] px-10 border border-white border-opacity-30  flex flex-col space-y-4 bg-black-100 shadow-md backdrop-blur-lg text-white  ${
         isProfessional ? "py-20 " : "py-8 "
       }`}
     >
