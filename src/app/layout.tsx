@@ -41,9 +41,10 @@ export const metadata: Metadata = {
     description:
       "Harness the power of advanced artificial intelligence with Ravian AI. Our platform transforms raw data into actionable insights, empowering businesses to make informed decisions and drive growth. Discover a suite of cutting-edge tools designed to optimize your data analysis, enhance AI model development, and provide comprehensive business intelligence. Join the future of data-driven decision-making with Ravian AI.",
     url: "https://ravianai.vercel.app",
-    siteName: "Ravianai",
+    siteName: "Ravian AI",
     locale: "en_US",
     type: "website",
+    images: "https://ravianai.vercel.app/og-bg.png",
   },
   robots: {
     index: true,
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Ravianai",
+    title: "Ravian Ai",
     card: "summary_large_image",
   },
 };
