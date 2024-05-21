@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="relative z-10 md:px-20 flex flex-col md:flex-row space-y-2 justify-between items-center py-8">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Ravian AI
+          Copyright © 2024 Ravian AI.
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (

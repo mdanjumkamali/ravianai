@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div className="py-20 md:py-24 " id="features">
+    <div className="py-20 md:py-24" id="features">
       <div className="mb-10">
         <h1 className="text-white text-4xl md:text-6xl font-semibold text-center">
           Why Choose <span className="text-blue-500"> Ravian AI?</span>

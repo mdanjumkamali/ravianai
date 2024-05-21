@@ -56,4 +56,7 @@
   body {
     @apply bg-black text-foreground text-white;
   }
+  .image {
+    background-image: url("http://localhost:3000/img1.jpg");
+  }
 }

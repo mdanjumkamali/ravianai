@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="fixed top-5 left-8 right-8 md:left-0 md:right-0 flex items-center justify-between border border-white border-opacity-30 rounded-lg py-2 px-3 sm:px-6 max-w-screen-xs  md:max-w-screen-sm lg:max-w-screen-md mx-auto bg-white bg-opacity-5 shadow-md backdrop-blur-lg text-white z-50">
       <div>
         <Link href="/" className="text-xl font-semibold">
-          Avain AI
+          Ravian AI.
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-6">
